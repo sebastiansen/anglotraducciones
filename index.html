@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Start Bootstrap - Scrolling Nav</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Anglotraducciones</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Equipo</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section id="intro" class="intro-section">
+        <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Servicios de Traducción</h1>
+                        <h3>Traducciones a tu medida...</h3>
+                        <hr class="intro-divider">
+                        <!-- <ul class="list-inline intro-social-buttons">
+                            <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    </section>
+
+    <section id="about" class="about-section alert-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Equipo</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section alert-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Servicios</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section alert-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="text-align: center;">
+                    <h1>Contacto</h1>
+                </div>
+            </div>
+            <div class="row">
+
+        <div class="col-sm-8">
+          <h3>Let's Get In Touch!</h3>
+          <p>Si necesitas que nos comunicamos contigo, o alguna cotización, deja tus datos y nos contactaremos contigo.</p>
+                        <form role="form" method="POST" action="contact-form-submission.php">
+                <div class="row">
+                  <div class="form-group col-lg-4">
+                    <label for="input1">Nombre</label>
+                    <input type="text" name="contact_name" class="form-control" id="input1">
+                  </div>
+                  <div class="form-group col-lg-4">
+                    <label for="input2">Email</label>
+                    <input type="email" name="contact_email" class="form-control" id="input2">
+                  </div>
+                  <div class="form-group col-lg-4">
+                    <label for="input3">Número telefónico</label>
+                    <input type="phone" name="contact_phone" class="form-control" id="input3">
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="form-group col-lg-12">
+                    <label for="input4">Mensaje</label>
+                    <textarea name="contact_message" class="form-control" rows="6" id="input4"></textarea>
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <input type="hidden" name="save" value="contact">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+              </div>
+            </form>
+        </div>
+
+        <div class="col-sm-4">
+          <h3>Anglotraducciones</h3>
+          <h4>Servicios de Traducción</h4>
+          <p>
+            Apoquindo 7600, Dpto. 40A.<br>
+            Las Condes, Región Metropolitana<br>
+          </p>
+          <p><i class="fa fa-phone"></i> <abbr title="Fijo">F</abbr>: (56) 0447910483</p>
+          <p><i class="fa fa-phone"></i> <abbr title="Móvil">M</abbr>: (56) 973830457</p>
+          <p><i class="fa fa-phone"></i> <abbr title="Móvil">M</abbr>: (56) 993157811</p>
+          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:contacto@anglotraducciones.cl">contacto@anglotraducciones.cl</a></p>
+          <p><i class="fa fa-clock-o"></i> <abbr title="Horario">H</abbr>: Lunes - Viernes: 9:00 a 17:00</p>
+          <ul class="list-unstyled list-inline list-social-icons">
+            <li class="tooltip-social facebook-link"><a href="#facebook-page" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+            <li class="tooltip-social linkedin-link"><a href="#linkedin-company-page" data-toggle="tooltip" data-placement="top" title="" data-original-title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li class="tooltip-social google-plus-link"><a href="#google-plus-page" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">⋅</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">⋅</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">⋅</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright © Your Company 2013. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
