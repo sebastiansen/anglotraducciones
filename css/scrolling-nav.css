@@ -4,9 +4,17 @@ body, html {
     width: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+body {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Raleway";
+font-weight: 300;
 }
 
 @media(min-width:767px) {
@@ -37,7 +45,8 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
+    /*background: #eee;*/
 }
 
 .services-section {
@@ -51,7 +60,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     /*text-align: center;*/
-    background: #eee;
+    /*background: #eee;*/
 }
 
 
